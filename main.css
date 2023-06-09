@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.container { 
+    border: 1px solid transparent;
+/*First container which holds logo and box elements....and or boxes */  
+}    
+
+.logo {
+  /* border: 1px solid lightgrey; this box holds the logo and is centered
+  the second element*/
+    box-sizing:border-box;        
+    min-height:10px;
+    margin-top: 0;
+    padding: 0;
+    text-align:center;
+}
+
+.box {
+    border:1px solid lightgrey;
+    font-size: 13px;
+    width: 300px;
+    height: 360px;
+    display:flex;
+    flex-direction: column;
+    border-radius:5px;
+    margin: auto;
+    padding:20px;
+/*this section control the size of the first box, and its elements*/
+}
+.box input {
+    width: 280px;
+    height: 20px;
+    padding: 3px 7px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    background-color: #fff;
+    border: 1px solid rgb(136, 112, 42);
+    border-radius: 3px; 
+/*this section controls input values: size of box height and width*/      
+}
+.box a{
+    color:rgb(82, 136, 216);
+      
+/*this section controls the color of the Phrase "forgot password"*/    
+}
+#forgot {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+#pass {
+    display: flex;
+    flex-direction: row;
+    padding-right: 48%;
+}  
+.box button {
+    margin-top:10px;
+    width:295px;
+    height:25px;
+    border:1px solid black;
+    border-radius: 3px;
+    background-color: rgba(231, 173, 13, 0.61);
+/*this section controls the button: color and size*/    
+}
+.container-1 {
+    border: 1px solid transparent;
+    display: flex;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    width:  295px;
+    height: 40px;
+}   
+
+.box-1 {
+    border: 1px solid transparent;
+    display: flex;
+    margin: 5px;
+    Width:13px;
+}   
+.box-2 {
+    border: 1px solid transparent;
+    display: flex;
+    margin-top: 5px;
+    margin-right: 0px;
+    margin-bottom:5px;
+    padding: 5px;
+    width: 165px;
+    
+}    
+h2 {
+    font-weight:400;
+    font-size: 28px;
+/*this section controls size of h2 tag*/
+}
+
+
+h5{ 
+    width:95%;
+    text-align:center;
+    border-bottom: 1px solid lightgrey;
+    line-height: .1em;
+    color:grey;
+    
+}
+h5 span {
+    background-color:white !important;
+    padding: 0px 10px;
+    
+}
+.box-3{
+/*border:1px solid green; box-2 contains the second button and the 
+phrase "new to Amazon" and the placement of them in the box*/
+    display:flex;
+    flex-direction:column;
+    align-items:center; 
+   
+}
+.box-3 p{
+    margin-top:25px;
+    font-size: 12px;
+    color:slategrey;
+}
+.box-3 button{
+    margin-top:20px;
+    width: 290px;
+    height:25px; background-color: lightgrey;
+    border:1px solid black;
+    border-radius: 3px;
+    
+}
+.container-2{
+/*border: 1px solid red; also holds each footer*/
+   display:flex;
+   flex-direction:column;
+   align-items:center;
+       
+}
+.footer-1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size:12px;
+}   
+
+/*this section is footer 1 controls placement and color of the <a>
+"Coditions of  use" and is size*/
+.footer-1 a{ 
+    margin-right: 25px;
+    color:rgb(82, 136, 216);
+/*this section controls the flex and color os the <a>*/
+
+}
+.footer-2 p{
+    font-size: 12px;
+}
+/*this section controls font-size ofthe footer*/
